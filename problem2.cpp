@@ -14,10 +14,8 @@ int main() {
     }
     if (n<0) {
         sign="negative";
-    }else if (n>0) {
-        sign="positive";
     }else {
-        sign="zero";
+        sign="positive";
     }
     cout<<"The number is "<<sign<<" and "<<evenness<<endl;
     return  0;
