@@ -9,10 +9,8 @@ int main() {
     string sign;
     if (n<0) {
         sign="Negative";
-    }else if (n>0) {
-        sign="Positive";
     }else {
-        sign="Zero";
+        sign="Positive";
     }
     cout<<sign<<endl;
     return  0;
